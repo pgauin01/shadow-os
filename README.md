@@ -30,7 +30,7 @@
 
 Shadow doesn't just store text; it _understands_ it.
 
-- **Automatic Vector Embedding:** When you log a **"Rant"** (with high stress > 7) or a key **"Idea"**, Shadow automatically embeds it into a local **FAISS Vector Database**.
+- **Automatic Vector Embedding:** When you log a **"Rant"** (with high stress > 7) or a key **"Idea"**, Shadow automatically embeds it into a local **Pinecone Vector Database**.
 - **Contextual Recall:** The Chat Assistant can retrieve past ideas or emotional patterns using Semantic Search.
 - _User:_ "What were my recent business ideas?"
 - _Shadow:_ Retrieves relevant logs from weeks ago using vector similarity.
